@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(233, 232, 231);
+}
+h4{
+    font-size: 25px;
+    margin-left: 20px;
+    color:  #ff7315ce;
+}
+.form{
+    width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 80px auto;
+}
+
+.form form{
+    display: grid;
+    padding: 25px;
+}
+
+.form form input,textarea{
+    width: 250px;
+    margin: 5px auto;
+    height: 30px;
+}
+.form form textarea{
+    height: 100px;
+}
+.form form .namef{
+    font-size: 20px;
+}
+input.submit{
+    background-color:#ff7315ce ;
+    height: 100px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    width: 50%;
+    padding-bottom: 20px;
+}
+div.red{
+    color: red;
+}

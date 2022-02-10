@@ -1,0 +1,81 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgb(226, 226, 226);
+}
+.header{
+    width: 85%;
+    margin-left: 100px;
+    background-color:#ff7315ce;
+    position: relative;
+}
+.header h1{
+    padding: 15px;
+    padding-left: 30px;
+    font-size: 25px;
+    color: white;
+}
+.header h1 a{
+    text-decoration: none;
+    margin-left: 700px;
+    font-size: 24px;
+    border: white 1px solid;
+    color:white;
+    padding: 8px;
+    border-radius: 20px;
+}
+.header h1 a:hover{
+    background-color: white;
+    color: #ff7315ce;
+}
+
+.tablemanager table{
+    width: 65%;
+    margin: 50px auto;
+}
+.tablemanager table tr, th,td{
+    border: none;
+    padding: 5px;
+}
+.tablemanager table th{
+    background-color: #ff7315ce;
+    border: none;
+}
+input#submit {
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #ff7315ce;
+    border: 2px solid #ff7315ce;
+    border-radius: 20px;
+}
+input#submit:hover{
+    border: 2px solid #ff7315ce;
+    background-color: white;
+    transition: 0.25s;
+    color: #ff7315ce;
+}
+.tablemanager table tr, th,td{
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: 20px;
+    border-right: white 2px solid;
+}
+.tablemanager .nav{
+    margin-left: 600px;
+}
+.tablemanager .nav a{
+    text-decoration: none;
+    font-size: 20px;
+    border:  #ff7315ce 2.5px solid;
+    color:  #ff7315ce ;
+    padding: 5px 8px;
+    margin: 8px;
+    font-weight:bold;
+    text-align: center;
+}
+.tablemanager .nav a:hover{
+    color:white;
+    background-color: #ff7315ce;
+    transition: 0.5s;
+}

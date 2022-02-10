@@ -1,0 +1,45 @@
+.dangki{
+	background-image: url("https://img2.thuthuatphanmem.vn/uploads/2018/12/30/anh-background-dep-nhat_110341130.jpg");
+     background-size: 1300px-1300px
+}
+.dangki{
+	/*background-image: url("https://img2.thuthuatphanmem.vn/uploads/2018/12/30/anh-background-dep-nhat_110341130.jpg");
+    /*  background-size: 1300px-1300px*/
+    width: 500px;
+    height: 600px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    margin: 100px auto;
+}
+.dangki input[type=text], input[type=password] {
+    width: 300px;
+    height: 30px;
+    
+    margin-bottom: 15px ;
+   
+    border: 1px solid #ccc;
+  
+    }
+.dangki input[type=email], input[type=password] {
+        width: 300px;
+        height: 30px;
+        
+        margin-bottom: 15px ;
+       
+        border: 1px solid #ccc;
+      
+    }
+.button {
+        background-color: orange;
+        color: white;
+        padding: 14px 20px;
+        
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        }
+           
+.button:hover {
+    opacity: 0.8;
+    }

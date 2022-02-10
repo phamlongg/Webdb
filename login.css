@@ -1,0 +1,36 @@
+
+.login{
+    background-image: url("https://img2.thuthuatphanmem.vn/uploads/2018/12/30/anh-background-dep-nhat_110341130.jpg");
+    background-size: 1300px-1300px;
+}
+.login {
+width: 500px;
+height: 500px;
+border: 1px solid grey;
+border-radius: 10px;
+text-align: center;
+margin: 100px auto;
+}
+.login input[type=text], input[type=password] {
+    width: 400px;
+    height: 50px;
+
+margin-bottom: 15px ;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+.button {
+background-color: orange;
+color: white;
+padding: 14px 20px;
+
+border: none;
+cursor: pointer;
+width: 100%;
+}
+   
+.button:hover {
+opacity: 0.8;
+}

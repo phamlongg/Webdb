@@ -1,0 +1,61 @@
+.additem{
+    border:1px solid black; 
+    border-radius: 30px;
+    margin:50px auto;
+    width:450px;
+    height: 650px;
+}
+.additem form input{
+    margin-left: 130px ;
+    height: 30px;
+    width: 200px;
+}
+.additem form p{
+    font-size: 20px;
+    padding-left: 50px;
+}
+.additem form button{
+    margin: 30px 200px;
+    width: 100px;
+}
+.additem form button:hover{
+    color: #ff7315ce;
+}
+input.addcart{
+    padding: 8px;
+    margin: 40px 20px -100px 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 3px #ff7315ce solid;
+    color: #ff7315ce;
+}
+input.addcart:hover{
+    color: #3f3f3ece;
+    border: 3px  #3f3f3ece solid
+}
+a#addnow{
+    margin-top: -8px;
+}
+h1{
+    width: 80%;
+    font-size: 25px;
+    margin-left: 100px;
+    padding: 10px;
+    background-color:#ff7315ce ;
+}
+a#cancel{
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 80px;
+    padding: 5px 30px;
+    border: 3px solid #ff7315ce;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ff7315ce;
+    border-radius: 20px;
+}
+a#cancel:hover{
+    background-color: #ff7315ce;
+    color: azure;
+}
